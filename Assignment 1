@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Blog</title>
+    <style>
+  
+        body {
+            font-family:  Helvetica, sans-serif;
+            background-color: #f5f5f511;
+            color: hsl(135, 45%, 40%); 
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+      
+        .container {
+            width: 75%;
+            max-width: 1024px;
+            background-color: #cf151565;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgb(227, 224, 252);
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+        }
+
+        /* Sidebar for profile picture and info */
+        .sidebar {
+            width: 25%;
+            max-width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 200px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .sidebar-content {
+            background-color: #1a1a1a; 
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #e54f4f; 
+            text-align: center;
+            width: 100%;
+        }
+
+        
+        .content {
+            width: 50%;
+            max-width: 675px;
+        }
+
+        .header {
+            background-color: #5a97d0; 
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            border-radius: 5px;
+        }
+
+       
+        .about-me {
+            margin-top: 15px;
+            background-color: #fafafa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 5px solid #ff0000; 
+        }
+
+        .about-me h2 {
+            color: #8b4300; 
+            font-size: 20px;
+        }
+
+        .about-me p {
+            line-height: 1.7;
+            color: rgb(172, 38, 38);
+        }
+
+       
+        .side-section {
+            width: 25%;
+            max-width: 200px;
+            background-color: #e8e8fdfc; 
+            padding: 15px;
+            border-radius: 5px;
+            color: #190202; 
+        }
+
+        .side-section h3 {
+            color: #ff0000; 
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .side-section ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .side-section li {
+            margin-bottom: 8px;
+            color: #17005; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="sidebar">
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
+            <div class="sidebar-content">
+                <h3></h3>
+                <p>A BLOG ON TECHNOLOGY FIELD IN THE WORLD.</p>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="header">Alexis Blog</div>
+            <div class="about-us">
+                <h2>About us</h2>
+                <p>We are a technology company that ventures in creating technological products for people to make use of.</p>
+            </div>
+        </div>
+
+        
+       
+        <div class="side-section">
+            <h3>Information</h3>
+            <ul>
+                <li>Brief History</li>
+                <li>Company Structure</li>
+                <li>products</li>
+                <li>comunity links</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html
